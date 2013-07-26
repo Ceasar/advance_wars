@@ -1,0 +1,86 @@
+.tile {
+    width: 32px;
+    height: 32px;
+    float: left;
+    cursor: pointer;
+}
+
+#terrain, #units {
+    width: 500px;
+}
+
+.row {
+    float: left;
+}
+
+.plain {
+    background: url("../img/plain.gif") no-repeat center center;
+    background-color: yellowgreen;
+}
+
+.road {
+    background: url("../img/hroad.gif") no-repeat center center;
+    background-color: gray;
+}
+
+.bridge {
+    background: url("../img/hbridge.gif") no-repeat center center;
+    background-color: darkgray;
+}
+
+.city {
+    background: url("../img/neutralcity.gif") no-repeat center center;
+    background-color: lightgray;
+}
+
+.base {
+    background: url("../img/neutralbase.gif") no-repeat center center;
+    background-color: dimgray;
+}
+
+.hq {
+    background: url("../img/orangestarhq.gif") no-repeat center center;
+    background-color: lightslategray;
+}
+
+.mountain {
+    background: url("../img/mountain.gif") no-repeat center center;
+    background-color: peru;
+}
+
+.sea {
+    background: url("../img/sea.gif") no-repeat center center;
+    background-color: royalblue;
+}
+
+.forest {
+    background: url("../img/wood.gif") no-repeat center center;
+    background-color: forestgreen;
+}
+
+#units {
+    position: absolute;
+}
+
+#units .tile {
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    */
+}
+
+.tank {
+    background: url("../img/ostank.gif");
+}
+
+.infantry {
+    background: url("../img/osinfantry.gif");
+}
+
+.mech {
+    background: url("../img/osmech.gif");
+}
